@@ -1,0 +1,22 @@
+.weekly{
+  margin-top:50px;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  img{
+    width:150px;
+  }
+  .box{
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+@media (max-width: 770px) {
+  .weekly{
+    margin-top:80px;
+    
+    img{
+      width:90px;
+    }
+  }
+}
